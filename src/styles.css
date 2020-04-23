@@ -1,0 +1,45 @@
+body {
+  background-color: whitesmoke;
+  font-family: "Abel", sans-serif;
+}
+.container,
+.welcome {
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.art {
+  padding: 50px;
+  background-color: rgba(0, 0, 0, 0.714);
+  color: lightgrey;
+  text-align: center;
+  border-radius: 8px;
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  border-radius: 8px;
+}
+
+button {
+  margin-top: 25px;
+}
+
+#head {
+  font-family: "Girassol", cursive;
+  font-size: 70px;
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2) {
+  h1 {
+    font-size: 26px;
+  }
+}
+
+/* font-family: 'Girassol', cursive;
+font-family: 'Open Sans', sans-serif; */
