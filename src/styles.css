@@ -2,6 +2,10 @@ body {
   background-color: whitesmoke;
   font-family: "Abel", sans-serif;
 }
+
+a {
+  color:black;
+}
 .container,
 .welcome {
   display: flex;
@@ -31,13 +35,26 @@ button {
 }
 
 #head {
-  font-family: "Girassol", cursive;
+  margin-top: 25px;
+  font-family: 'Open Sans Condensed', sans-serif;
   font-size: 70px;
+  font-weight: 200;
+}
+
+.footer {
+  font-size: 12px;
+  font-family: "Abel", sans-serif;
+  margin-top: 50px;
+  text-align: center;
 }
 
 @media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2) {
   h1 {
     font-size: 26px;
+  }
+
+  img {
+    width: 25%;
   }
 }
 
