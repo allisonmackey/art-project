@@ -10,7 +10,7 @@ __
 
 ## Setup Requirements
 
-* _View this project on Netlify [here]()_
+* _View this project on Netlify [here](https://jolly-carson-8c570e.netlify.app/)_
 * _View detailed set up requirements [here](INSTALL.md)_
 
 ## Known Bugs
